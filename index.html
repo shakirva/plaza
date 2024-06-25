@@ -12,10 +12,71 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />  
+
 </head>
 
 <body>
- 
+
+    <!-- The Modal -->
+    <div class="modal fade" id="leadFormModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Event Information</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="eventDescription">Event Description*</label>
+                            <select class="form-control" id="eventDescription" required>
+                                <option value="Wedding">Wedding</option>
+                                <option value="Birthday">Birthday</option>
+                                <option value="Catering">Catering</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="eventDate">Event Date*</label>
+                            <input type="date" class="form-control" id="eventDate" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="startTime">Start Time*</label>
+                            <input type="time" class="form-control" id="startTime" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="endTime">End Time*</label>
+                            <input type="time" class="form-control" id="endTime" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="eventLocation">Event Location*</label>
+                            <input type="text" class="form-control" id="eventLocation" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactName">Contact Name*</label>
+                            <input type="text" class="form-control" id="contactName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email*</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone*</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="(___) ___-____" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <!-- Modal Footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Section 1: Header -->
 <nav class="navbar navbar-expand-lg navbar-dark ">
         <div class="container">
@@ -73,6 +134,7 @@
             <h2 class="experience-info  "> <br> 21+ </br>Years of Experience</h2>
             <h3 class="experience-info py-5 px-5"> <br> 100+ </br>Events Each year</h3>
         </div>
+        <img src="Images/line" alt="Header Image">
         <img src="Images/table-2055700_1280.jpg" alt="Header Image">
         
         
@@ -155,10 +217,12 @@
     </section>
     
     <!-- Section 3: Four Images in Two Rows -->
-    <section class="section-3 py-5">
-        <div class="">
+
+
+    <section class="section-3 ">
+        <div class="container">
             <div class="row">
-                <div class="col-md-6 position-relative">
+                <div class="col-md-6 col-12 position-relative">
                     <img src="Images/people-taking-part-high-protocol-event (1).jpg" class="blurred-image" alt="Image 1">
                     <img src="Images/close-up-people-serving-themselves-fruits-buffet-restaurant.jpg" class="overlay-image" alt="Image 1">
                     <h1 class="image-title  fs-1">Corporate</h1>
@@ -170,7 +234,7 @@
                         </a>
                       </h2>
                 </div>
-                <div class="col-md-6 position-relative">
+                <div class="col-md-6 col-12 position-relative">
                     
                     
                     
@@ -187,7 +251,7 @@
                 </div>
             </div>
             <div class="row mt-4">
-                <div class="col-md-6 position-relative">
+                <div class="col-md-6  position-relative">
                     <img src="Images/back3.png" class="blurred-image" alt="Image 1">
                     <img src="Images/its.jpeg" class="overlay-image" alt="Image 1">
                     <h1 class="image-title  fs-1">Social Events</h1>
@@ -285,7 +349,7 @@ your loved ones.</p>
 
     <section class="section-5">
         <img src="Images/1.jpg" alt="Full Width Image">
-        <span>Book Your Event Today</span>
+        <span>HEALTHY   TASTY    ENJOY</span>
     </section>
 
     <section class="section-6 py-5 photo-gallery">
@@ -418,7 +482,7 @@ your loved ones.</p>
                     <p>Are you looking for an Outdoor
                         catering Services that can
                         provide delicious…</p>
-                    <div class="read-more">
+                    <div class="read-more ">
                         <a href="https://plazacatering.co.in/blog/">Read More<span class="material-symbols-outlined">
                             arrow_right
                             </span></a>
@@ -429,31 +493,41 @@ your loved ones.</p>
 
 
     </section>
-    <footer class="footer">
-        <div class="company-logo">
-            <img src="Images/plaza logo.jpg" alt="Logo" height="130">
-        </div>
+     <!-- Footer Section -->
+     <footer class=" text-white  py-4 " style="background-color:#611A1F ;">
         <div class="container">
-            <div class="row px-5 py-2 ">
-                <div class=" col-md-3 col-3 px-5">
-                    <h5>Find Us</h5>
-                    <p>Palakkad - Ponnani Rd Vaniyamkulam-I Palakkad Dist. Kerala - 679 523</p>
+            <div class="row">
+                <!-- Branding Section -->
+                <div class="col-md-4 text-center text-md-left mb-4 mb-md-0 ">
+                    <img src="Images/logo-1 (1).png" alt="Plaza Catering Service" class="img-fluid mb-3 w-50">
+                    <p class="w-55 text-center">An esteemed catering brand offering exquisite, handcrafted culinary experiences inspired by global flavours.</p>
                 </div>
-                <div class=" col-md-3 col-3 px-5 ">
-                    <h5>Contact Us</h5>
-                    <p>+919539100000<br>+919846301234</p>
+                <!-- Address Section -->
+                <div class="col-md-4 text-center text-md-left mb-4 mb-md-0 mt-4     ">
+                    <h5>ADDRESS</h5>
+                    <p>Plaza Catering Service<br>
+                    Palakkad - Ponnani Rd<br>
+                    Vaniyamkulam-I<br>
+                    Palakkad Dist.<br>
+                    Kerala - 679 523</p>
                 </div>
-                <div class=" col-md-3 col-3 px-5">
-                    <h5>Explore</h5>
-                    <p>About us<br>Menus<br>Gallery<br>Blog<br>Contact</p>
-                </div>
-                <div class=" col-md-3 col-3 px-5">
-                    <h5>Events</h5>
-                    <p>Corporate<br>Wedding<br>Social Events<br>Parties</p>
+                <!-- Contact Section -->
+                <div class="col-md-4 text-center text-md-left mt-4">
+                    <h5>CONTACT</h5>
+                    <p>+91 9539 100 000<br>
+                    +91 9846 30 1234<br>
+                    <a href="mailto:info@plazacatering.co.in" class="text-white fs-5 ">info@plazacatering.co.in</a></p>
+                    <div>
+                        <a href="#" class="text-white d-inline-block  mr-3 " style="font-size: 11px;" ><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="#" class="text-white d-inline-block mr-3 " style="font-size: 11px;"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#" class="text-white d-inline-block  " style="font-size: 11px;"><i class="fab fa-youtube fa-2x"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -481,6 +555,13 @@ your loved ones.</p>
     
         // Start auto scrolling
         showNextReview();
+
+
+        
+        $(document).ready(function(){
+            $('#leadFormModal').modal('show');
+        });
+    
     </script>
 </body>
 </html>
