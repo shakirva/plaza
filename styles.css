@@ -2011,7 +2011,7 @@ transition: opacity 0.5s ease-in-out;
         }
 
 
-        @media only screen and (min-height: 740px)
+        /* @media only screen and (min-height: 740px)
 {
     .feedback-heading h2 {
         font-size: 25px;
@@ -2082,5 +2082,5 @@ transition: opacity 0.5s ease-in-out;
     
    
  }
-   
+    */
    
