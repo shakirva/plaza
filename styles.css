@@ -21,7 +21,7 @@
   }
   
   * {
-    font-family:'footlight mt','Poppins', 'NexaRegular',   sans-serif;
+    font-family: 'NexaRegular', 'footlight mt', 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -708,7 +708,9 @@ a {
 
 @media (max-width: 768px) {
 
-    
+    body {
+        font-family: 'FootlightMT', sans-serif;
+      }
     
     .navbar {
         height: 100px;
@@ -835,7 +837,7 @@ a {
         margin-top: 15%;
         color: #EBC6A4;
         margin-left: 13%;
-               
+       
 
     }
     .header-content h3 {
