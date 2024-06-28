@@ -1323,7 +1323,7 @@ footer p,h5, a {
     }
     
     .feedback-heading h2 {
-        font-size: 30px;
+        font-size: 3px;
         top: 56%;
         margin-right: -10%;
        font-weight: 700;
@@ -2185,9 +2185,9 @@ transition: opacity 0.5s ease-in-out;
                 
             }
             .feedback-heading h2 {
-               top: 66%;
-               font-size: 32px;
-                margin-right: -29%;
+               top: 62%;
+               font-size: 34px;
+                margin-right: -26%;
         
                
                
@@ -2197,11 +2197,11 @@ transition: opacity 0.5s ease-in-out;
         
         .feedback-container {
             position: ;
-            top: 96%;
+            top: 90%;
             left: 49%;
             transform: translate(-50%, -50%);
             width: 300px;
-            height: 330px;
+            height: 350px;
             border-radius: 50px;
          
             background-color: #ffffff;
@@ -2231,6 +2231,69 @@ transition: opacity 0.5s ease-in-out;
         }
 
     }
+
+
+    @media only screen and (max-width: 376px) and (max-height: 668px){
+        .header-content {
+            position: absolute;
+            top: 0;
+            left: 10%;
+            z-index: 1000;
+            
+        }
+        .experience-info {
+            color: #ebc6a4;
+            left: 15px;
+            
+        }
+        .feedback-heading h2 {
+           top: 65%;
+           font-size: 33px;
+            margin-right: -26%;
+    
+           
+           
+        
+           
+        }
+    
+    .feedback-container {
+        position: ;
+        top: 96%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        height: 350px;
+        border-radius: 50px;
+     
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+  
+        
+        
+     
+    }
+
+    .section-1 {
+        height: 119vh;
+        background-color: #ffffff;
+        width: 100%;
+        border-bottom-right-radius: 0px;
+        
+    }
+
+    .section-2 {
+        height: auto;
+        margin-top: 50%;
+    }
+
+}
+
 
 
         /* @media only screen and (min-height: 740px)
