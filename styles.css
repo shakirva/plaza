@@ -1307,6 +1307,10 @@ footer p,h5, a {
  
 }
 
+.header-content{
+    left: 10%;
+}
+
 
 }
 
@@ -1321,13 +1325,19 @@ footer p,h5, a {
     .feedback-heading h2 {
         font-size: 25px;
         top: 56%;
-        margin-right: 2%;
+        margin-right: 2PX;
        font-weight: 700;
        color: #000000;
        position: absolute;
+       width: 50%;
        
     
        
+    }
+
+    .header-content{
+        left: 10%;
+        top: -2%;
     }
 
     .image-title {
@@ -1469,7 +1479,7 @@ transition: opacity 0.5s ease-in-out;
 @media (min-width: 411px) and (max-width: 767px) {
    
   .header-content{
-    left: 17%;
+    left: 13%;
 }
     
 .feedback-heading h2 {
