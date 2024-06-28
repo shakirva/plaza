@@ -1,18 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
-@import url('https://fonts.gstatic.com');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-
-*{
-    font-family: 'nexa-regular' "footlight mt bold" poppins; ;
+@font-face {
+    font-family: 'FootlightMTBold';
+    src: url('fonts/FootlightMTBold.woff2') format('woff2'),
+         url('fonts/FootlightMTBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'NexaRegular';
+    src: url('fonts/NexaRegular.woff2') format('woff2'),
+         url('fonts/NexaRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  * {
+    font-family: 'NexaRegular', 'FootlightMTBold', 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
-   
-}
+  }
 
 body {
     /* width: 100vw;
@@ -166,6 +180,7 @@ body {
     color: #611A1F;
     padding: 10px;
     font-size: 50px;
+    font-family: footlight mt;
     
     
 }
