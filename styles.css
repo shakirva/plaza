@@ -1325,11 +1325,11 @@ footer p,h5, a {
     .feedback-heading h2 {
         font-size: 25px;
         top: 56%;
-        margin-right: 2PX;
+        margin-right: -10%;
        font-weight: 700;
        color: #000000;
        position: absolute;
-       width: 50%;
+       width: 100%;
        
     
        
@@ -1374,7 +1374,7 @@ footer p,h5, a {
 @media (min-width: 414px) and (max-width: 767px) {
    
     .header-content{
-        left: 18%;
+        left: 30;
     }
 
 
@@ -1479,13 +1479,13 @@ transition: opacity 0.5s ease-in-out;
 @media (min-width: 411px) and (max-width: 767px) {
    
   .header-content{
-    left: 13%;
+    left: 14%;
 }
     
 .feedback-heading h2 {
     font-size: 25px;
     top: 56%;
-    margin-right: 5%;
+    margin-right: 3%;
    font-weight: 700;
    color: #000000;
    position: absolute;
@@ -2175,7 +2175,7 @@ transition: opacity 0.5s ease-in-out;
             .header-content {
                 position: absolute;
                 top: 0;
-                left: 8%;
+                left: 10%;
                 z-index: 1000;
                 
             }
@@ -2185,9 +2185,9 @@ transition: opacity 0.5s ease-in-out;
                 
             }
             .feedback-heading h2 {
-               top: 65%;
-               font-size: 25px;
-                margin-right: -5%;
+               top: 66%;
+               font-size: 32px;
+                margin-right: -29%;
         
                
                
@@ -2197,7 +2197,7 @@ transition: opacity 0.5s ease-in-out;
         
         .feedback-container {
             position: ;
-            top: 95%;
+            top: 96%;
             left: 49%;
             transform: translate(-50%, -50%);
             width: 300px;
@@ -2230,7 +2230,7 @@ transition: opacity 0.5s ease-in-out;
             margin-top: 50%;
         }
 
-        
+    }
 
 
         /* @media only screen and (min-height: 740px)
