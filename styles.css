@@ -1409,7 +1409,7 @@ footer p,h5, a {
 
 .feedback-heading h2 {
     font-size: 25px;
-    top: 49%;
+    top: 59%;
     margin-right: 5%;
    font-weight: 700;
    color: #000000;
@@ -1474,7 +1474,7 @@ transition: opacity 0.5s ease-in-out;
     
 .feedback-heading h2 {
     font-size: 25px;
-    top: 49%;
+    top: 56%;
     margin-right: 5%;
    font-weight: 700;
    color: #000000;
@@ -1486,7 +1486,7 @@ transition: opacity 0.5s ease-in-out;
 }
 
 .section-1 {
-    height: 115vh;
+    height: 105vh;
     background-color: #ffffff;
     width: 100%;
     border-bottom-right-radius: 0px;
@@ -1521,7 +1521,7 @@ margin-top: 10%;
 
 .feedback-container {
 position: absolute;
-top: 70%;
+top: 80%;
 left: 49%;
 transform: translate(-50%, -50%);
 width: 350px;
@@ -2177,7 +2177,7 @@ transition: opacity 0.5s ease-in-out;
             .feedback-heading h2 {
                top: 65%;
                font-size: 25px;
-                margin-right: 1%;
+                margin-right: -5%;
         
                
                
@@ -2213,6 +2213,11 @@ transition: opacity 0.5s ease-in-out;
             width: 100%;
             border-bottom-right-radius: 0px;
             
+        }
+
+        .section-2 {
+            height: auto;
+            margin-top: 50%;
         }
 
         
