@@ -1,24 +1,10 @@
 @font-face {
     font-family: 'footlight mt';
     src: url('fonts/Footlight\ MT\ W04\ Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+   
   }
   
-  @font-face {
-    font-family: 'NexaRegular';
-    src: url('fonts/NexaRegular.woff2') format('woff2'),
-         url('fonts/NexaRegular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Poppins';
-    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
-    font-weight: normal;
-    font-style: normal;
-  }
+ 
   
   * {
     font-family: 'NexaRegular', 'footlight mt', 'Poppins', sans-serif;
