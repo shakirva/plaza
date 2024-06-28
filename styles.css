@@ -708,9 +708,7 @@ a {
 
 @media (max-width: 768px) {
 
-    body {
-        font-family: 'footlight mt', sans-serif;
-      }
+    
     
     .navbar {
         height: 100px;
