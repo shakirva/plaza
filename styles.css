@@ -806,7 +806,7 @@ a {
         margin-top: 20%;
         color: #ffffff;
        
-        font-family: Footlight MT ;
+       
         width: 100%;
         text-align: center;
         
@@ -838,7 +838,7 @@ a {
         margin-top: 15%;
         color: #EBC6A4;
         margin-left: 13%;
-        font-family: Footlight MT bold;
+       
 
     }
     .header-content h3 {
@@ -951,7 +951,7 @@ a {
         top: 100px;
         font-size: 50px;
         padding: 15px;
-        font-family: footlight mt;
+      
         
         
         
@@ -1055,7 +1055,7 @@ a {
         font-size: 20px;
         font-weight: bold;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        font-family: footlight mt;
+      
     
     }
     
@@ -1395,7 +1395,7 @@ a {
   
         .header-content h1 {
     
-            font-family: footlight mt;
+           
             
         }
 
@@ -1610,7 +1610,7 @@ transition: opacity 0.5s ease-in-out;
         font-size: 70px;
         margin-top: 15%;
         color: #ffffff;
-        font-family: Footlight MT;
+       
         width: 100%;
         text-align: center;
     }
@@ -1640,7 +1640,7 @@ transition: opacity 0.5s ease-in-out;
         color: #EBC6A4;
         margin-left: 22%;
         margin-right: auto;
-        font-family: Footlight MT bold;
+      
         text-align: center;
     }
 
@@ -1725,7 +1725,7 @@ transition: opacity 0.5s ease-in-out;
         top: 100px;
         font-size: 50px;
         padding: 15px;
-        font-family: Footlight MT;
+    
     }
 
     .section-2 .container p {
@@ -1978,7 +1978,7 @@ transition: opacity 0.5s ease-in-out;
         color: #EBC6A4;
         margin-left: 20%;
         margin-right: auto;
-        font-family: Footlight MT bold;
+       
         text-align: center;
     }
 
