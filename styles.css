@@ -1371,7 +1371,7 @@ footer p,h5, a {
 
 
 
-@media (min-width: 429px) and (max-width: 768px) {
+@media (min-width: 418px) and (max-width: 768px) {
    
     .header-content{
       left: 17%;
@@ -1449,7 +1449,7 @@ footer p,h5, a {
 
 
 
-@media (min-width: 391px) and (max-width: 428px) {
+@media (min-width: 391px) and (max-width: 418px) {
    
   .header-content{
     left: 17%;
