@@ -1483,9 +1483,9 @@ transition: opacity 0.5s ease-in-out;
 }
     
 .feedback-heading h2 {
-    font-size: 25px;
-    top: 59%;
-    margin-right: 2%;
+    font-size: 30px;
+    top: 65%;
+    margin-right: -5%;
    font-weight: 700;
    color: #000000;
    position: absolute;
@@ -1508,9 +1508,10 @@ transition: opacity 0.5s ease-in-out;
 .section-2 .container h2 {
 
 margin-left: 3%;
-margin-top: 15%;
+margin-top: 28%;
 width: 90%;
 z-index: 1100;
+
 
 }
 
@@ -1531,7 +1532,7 @@ margin-top: 10%;
 
 .feedback-container {
 position: absolute;
-top: 86%;
+top: 92%;
 left: 49%;
 transform: translate(-50%, -50%);
 width: 350px;
@@ -1548,6 +1549,7 @@ transition: opacity 0.5s ease-in-out;
 
 }
 }
+
 
 
 
